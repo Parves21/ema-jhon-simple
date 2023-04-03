@@ -1,0 +1,55 @@
+.Cards-container img {
+    width: 230px;
+    height: 246px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Cards-container {
+    width: 250px;
+    height: 420px;
+    border: 2px solid #292828;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-info-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card-prics {
+    margin-top: 0px;
+}
+
+.card-manufacturer {
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card-rating {
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.button {
+    width: 100%;
+    margin-top: 10px;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px;
+    position: absolute;
+    bottom: 0px;
+}
+.button:hover{
+    background-color: orange;
+}

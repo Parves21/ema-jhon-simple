@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import HeaderSection from './Component/Header/Header'
+import Products from './Component/Products/shop'
+import Cards from './Component/Products/products'
 
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <HeaderSection></HeaderSection>
+      <Products></Products>
     </div>
   )
 }
